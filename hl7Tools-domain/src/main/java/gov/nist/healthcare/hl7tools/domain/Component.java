@@ -16,7 +16,7 @@ public class Component implements Serializable {
 	private Usage usage;
 	private int minLength = -1;
 	private String maxLength;
-	private int confLength = -1;
+	private String confLength;
 	private EBoolean truncationAllowed = EBoolean.NA;
 	private Datatype datatype;
 	private CodeTable codeTable;
@@ -102,7 +102,7 @@ public class Component implements Serializable {
 	/**
 	 * @return the confLength
 	 */
-	public int getConfLength() {
+	public String getConfLength() {
 		return confLength;
 	}
 
@@ -110,7 +110,7 @@ public class Component implements Serializable {
 	 * @param confLength
 	 *            the confLength to set
 	 */
-	public void setConfLength(int confLength) {
+	public void setConfLength(String confLength) {
 		this.confLength = confLength;
 	}
 

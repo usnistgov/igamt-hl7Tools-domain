@@ -13,7 +13,7 @@ public class Field implements Serializable {
 	private Usage usage;
 	private int minLength = -1;
 	private String maxLength;
-	private int confLength = -1;
+	private String confLength;
 	private EBoolean truncationAllowed = EBoolean.NA;
 	private int min;
 	private String max;
@@ -116,7 +116,7 @@ public class Field implements Serializable {
 	/**
 	 * @return the confLength
 	 */
-	public int getConfLength() {
+	public String getConfLength() {
 		return confLength;
 	}
 
@@ -124,7 +124,7 @@ public class Field implements Serializable {
 	 * @param confLength
 	 *            the confLength to set
 	 */
-	public void setConfLength(int confLength) {
+	public void setConfLength(String confLength) {
 		this.confLength = confLength;
 	}
 
