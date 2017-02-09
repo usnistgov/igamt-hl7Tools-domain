@@ -3,6 +3,7 @@ gov/nist/healthcare/hl7tools/domain/Element.class
 gov/nist/healthcare/hl7tools/domain/Model.class
 gov/nist/healthcare/hl7tools/domain/Person.class
 gov/nist/healthcare/hl7tools/domain/CodeSystem.class
+gov/nist/healthcare/hl7tools/domain/CodeUsage.class
 gov/nist/healthcare/hl7tools/domain/util/IdHelper.class
 gov/nist/healthcare/hl7tools/domain/DatatypeLibrary.class
 gov/nist/healthcare/hl7tools/domain/EBoolean.class
